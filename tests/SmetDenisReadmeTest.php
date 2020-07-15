@@ -74,7 +74,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         }
 
         $expected = implode("\n", $result);
-        isTrue(strpos(self::getReadme(), $expected) === 0, $expected);
+        isTrue(strpos(self::getReadme(), $expected) !== false, $expected);
     }
 
     /**
