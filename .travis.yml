@@ -11,10 +11,16 @@
 # @link       https://github.com/SmetDenis
 #
 
-.idea
-.DS_Store
-build
-vendor
-phpunit.xml
-composer.lock
-*.cache
+language: php
+os: linux
+dist: xenial
+
+php:
+  - 7.4
+
+before_script:
+  - composer self-update
+
+script:
+  - make update --no-print-directory
+  - make test   --no-print-directory

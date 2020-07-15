@@ -1,0 +1,32 @@
+{
+    "name"              : "smetdenis/smetdenis",
+    "type"              : "library",
+    "description"       : "SmetDenis Profile readme file",
+    "license"           : "MIT",
+
+    "authors"           : [
+        {
+            "name"  : "Denis Smetannikov",
+            "email" : "admin@jbzoo.com",
+            "role"  : "lead"
+        }
+    ],
+
+    "require"           : {
+        "php" : "^7.2"
+    },
+
+    "require-dev"       : {
+        "jbzoo/toolbox-dev" : "^2.1.0"
+    },
+
+    "autoload-dev"      : {
+        "classmap" : ["tests"]
+    },
+
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
+    "config"            : {
+        "optimize-autoloader" : true
+    }
+}
