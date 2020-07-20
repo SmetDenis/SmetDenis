@@ -89,12 +89,11 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
                 $rows[] = [
                     $this->getGithubLink($vendor, $name),
-                    $this->buildStatusBadges(),
-                    $this->buildInfoBadges(),
+                    $this->buildStatusBadges()
                 ];
             }
 
-            $result[] = $table->render(['Project', 'Status', 'Info'], $rows);
+            $result[] = $table->render(['Project', 'Info'], $rows);
             $result[] = '';
             $result[] = '';
         }
@@ -122,17 +121,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             str_replace('?branch=master', '', $this->checkBadgeTravis()),
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
-        ]);
-    }
-
-    /**
-     * @return string
-     */
-    private function buildInfoBadges(): string
-    {
-        return implode('    ', [
             $this->checkBadgeLatestStableVersion(),
-            //$this->checkBadgeGithubForks(),
             $this->checkBadgeGithubStars(),
             $this->checkBadgeTotalDownloads(),
         ]);
