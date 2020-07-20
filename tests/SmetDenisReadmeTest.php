@@ -95,6 +95,8 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             }
 
             $result[] = $table->render(['Project', 'Status', 'Info'], $rows);
+            $result[] = '';
+            $result[] = '';
         }
 
         $expected = implode("\n", $result);
@@ -130,7 +132,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
     {
         return implode('    ', [
             $this->checkBadgeLatestStableVersion(),
-            $this->checkBadgeGithubForks(),
+            //$this->checkBadgeGithubForks(),
             $this->checkBadgeGithubStars(),
             $this->checkBadgeTotalDownloads(),
         ]);
