@@ -41,9 +41,33 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             ['JBZoo', 'Composer-Graph'],
             ['JBZoo', 'Codestyle'],
             ['JBZoo', 'PHPUnit'],
+            ['JBZoo', 'Toolbox-CI'],
             ['JBZoo', 'Toolbox-Dev'],
             ['JBZoo', 'Skeleton-PHP'],
         ]
+    ];
+
+    protected $params = [
+        'latest_stable_version'   => true,
+        'latest_unstable_version' => true,
+        'version'                 => true,
+        'total_downloads'         => true,
+        'dependents'              => true,
+        'suggesters'              => true,
+        'daily_downloads'         => true,
+        'monthly_downloads'       => true,
+        'composerlock'            => true,
+        'gitattributes'           => true,
+        'packagist_license'       => true,
+        'github_issues'           => true,
+        'github_license'          => true,
+        'github_forks'            => true,
+        'github_stars'            => true,
+        'codacy'                  => true,
+        'psalm_coverage'          => true,
+        'travis'                  => true,
+        'coveralls'               => true,
+        'circle_ci'               => true,
     ];
 
     public function testDashBoardTable()
