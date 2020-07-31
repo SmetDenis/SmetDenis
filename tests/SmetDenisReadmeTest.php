@@ -118,7 +118,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
     private function buildStatusBadges(): string
     {
         return implode('    ', [
-            str_replace('?branch=master', '', $this->checkBadgeTravis()),
+            $this->checkBadgeTravis(),
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
             $this->checkBadgeLatestStableVersion(),
