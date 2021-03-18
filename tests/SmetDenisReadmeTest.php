@@ -33,6 +33,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             ['JBZoo', 'Less'],
             ['JBZoo', 'Path'],
             ['JBZoo', 'Mermaid-PHP'],
+            ['JBZoo', 'Retry'],
             ['JBZoo', 'SimpleTypes'],
             ['JBZoo', 'Toolbox'],
         ],
