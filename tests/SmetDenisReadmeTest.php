@@ -38,6 +38,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             ['JBZoo', 'Toolbox'],
         ],
         'Developer Tools' => [
+            ['JBZoo', 'Mock-Server'],
             ['JBZoo', 'Composer-Diff'],
             ['JBZoo', 'Composer-Graph'],
             ['JBZoo', 'Codestyle'],
