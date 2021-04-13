@@ -19,6 +19,11 @@ php:
   - 7.4
   - 8.0
 
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: 8.0
+
 before_script:
   - composer self-update
 
