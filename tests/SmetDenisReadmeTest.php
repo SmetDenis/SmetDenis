@@ -13,7 +13,11 @@
  * @link       https://github.com/SmetDenis
  */
 
+declare(strict_types=1);
+
 namespace JBZoo\PHPUnit;
+
+use SmetDenis\SmetDenis\MarkdownTable;
 
 /**
  * Class SmetDenisReadmeTest
@@ -82,7 +86,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
             $rows = [];
 
-            $table = new Markdown();
+            $table = new MarkdownTable();
             foreach ($projects as $project) {
                 [$vendor, $name] = $project;
 

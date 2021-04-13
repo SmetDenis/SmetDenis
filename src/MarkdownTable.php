@@ -13,13 +13,15 @@
  * @link       https://github.com/SmetDenis
  */
 
-namespace JBZoo\PHPUnit;
+declare(strict_types=1);
+
+namespace SmetDenis\SmetDenis;
 
 /**
- * Class Markdown
- * @package JBZoo\ComposerDiff\Renders
+ * Class MarkdownTable
+ * @package SmetDenis\SmetDenis
  */
-class Markdown
+class MarkdownTable
 {
     public const A_LEFT   = 'Left';
     public const A_CENTER = 'Center';
@@ -199,7 +201,7 @@ class Markdown
         $result = $this->alignments[$colIndex] ?? self::A_LEFT;
 
         if (!in_array($result, $validAligns, true)) {
-            throw new Exception("Invalid alignment for column index {$colIndex}: {$result}");
+            throw new \Exception("Invalid alignment for column index {$colIndex}: {$result}");
         }
 
         return $result;

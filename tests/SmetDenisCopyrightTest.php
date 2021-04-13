@@ -13,6 +13,8 @@
  * @link       https://github.com/SmetDenis
  */
 
+declare(strict_types=1);
+
 namespace JBZoo\PHPUnit;
 
 /**
@@ -41,4 +43,9 @@ class SmetDenisCopyrightTest extends AbstractCopyrightTest
      * @var string
      */
     protected $packageLink = 'https://github.com/SmetDenis';
+
+    /**
+     * @var bool
+     */
+    protected $isPhpStrictType = true;
 }

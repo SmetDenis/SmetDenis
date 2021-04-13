@@ -20,6 +20,12 @@
         "jbzoo/toolbox-dev" : "^2.4.0"
     },
 
+    "autoload"      : {
+        "psr-4" : {
+            "SmetDenis\\SmetDenis\\" : "src"
+        }
+    },
+
     "autoload-dev"      : {
         "classmap" : ["tests"]
     },

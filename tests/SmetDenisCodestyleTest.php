@@ -13,6 +13,8 @@
  * @link       https://github.com/SmetDenis
  */
 
+declare(strict_types=1);
+
 namespace JBZoo\PHPUnit;
 
 /**
