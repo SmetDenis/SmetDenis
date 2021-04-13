@@ -1,4 +1,9 @@
 
+
+[![Build Status](https://travis-ci.org/SmetDenis/SmetDenis.svg)](https://travis-ci.org/SmetDenis/SmetDenis)    [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg)](https://coveralls.io/github/SmetDenis/SmetDenis)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)
+
+
+
 # Dashboard
 
 

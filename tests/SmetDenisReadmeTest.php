@@ -26,6 +26,29 @@ use SmetDenis\SmetDenis\MarkdownTable;
  */
 class SmetDenisReadmeTest extends AbstractReadmeTest
 {
+    /**
+     * @var string
+     */
+    protected $vendorName = 'SmetDenis';
+
+    /**
+     * @var string
+     */
+    protected $packageName = 'SmetDenis';
+
+    /**
+     * @var string[]
+     */
+    protected $badgesTemplate = [
+        'travis',
+        'coveralls',
+        'psalm_coverage',
+        'scrutinizer',
+    ];
+
+    /**
+     * @var string[][][]
+     */
     protected $projects = [
         'PHP Libraries'   => [
             ['JBZoo', 'Utils'],
@@ -53,6 +76,9 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         ]
     ];
 
+    /**
+     * @var bool[]
+     */
     protected $params = [
         'latest_stable_version'   => true,
         'latest_unstable_version' => true,
@@ -76,7 +102,15 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         'circle_ci'               => true,
     ];
 
-    public function testDashBoardTable()
+    /**
+     * @return string
+     */
+    protected function getTitle(): string
+    {
+        return '';
+    }
+
+    public function testDashBoardTable(): void
     {
         $result = [];
 
@@ -131,10 +165,5 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             $this->checkBadgeGithubStars(),
             $this->checkBadgeTotalDownloads(),
         ]);
-    }
-
-    public function testReadmeHeader(): void
-    {
-        skip('');
     }
 }
