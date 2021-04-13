@@ -1,6 +1,6 @@
 
 
-[![Build Status](https://travis-ci.org/SmetDenis/SmetDenis.svg)](https://travis-ci.org/SmetDenis/SmetDenis)    [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg)](https://coveralls.io/github/SmetDenis/SmetDenis)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)
+[![Build Status](https://travis-ci.org/SmetDenis/SmetDenis.svg)](https://travis-ci.org/SmetDenis/SmetDenis)    [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg)](https://coveralls.io/github/SmetDenis/SmetDenis)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)    [![PHP Strict Types](https://img.shields.io/badge/strict__types-%3D1-brightgreen)](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict)
 
 
 

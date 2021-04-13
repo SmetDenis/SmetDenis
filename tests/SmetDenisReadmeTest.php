@@ -44,6 +44,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         'coveralls',
         'psalm_coverage',
         'scrutinizer',
+        'strict_types',
     ];
 
     /**
@@ -100,6 +101,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         'travis'                  => true,
         'coveralls'               => true,
         'circle_ci'               => true,
+        'strict_types'            => true,
     ];
 
     /**
