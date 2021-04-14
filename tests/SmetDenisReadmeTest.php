@@ -102,6 +102,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         'coveralls'               => true,
         'circle_ci'               => true,
         'strict_types'            => true,
+        'scrutinizer'             => true,
     ];
 
     /**
@@ -165,7 +166,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             $this->checkBadgePsalmCoverage(),
             $this->checkBadgeLatestStableVersion(),
             $this->checkBadgeGithubStars(),
-            $this->checkBadgeTotalDownloads(),
+            $this->checkBadgeScrutinizer(),
         ]);
     }
 }
