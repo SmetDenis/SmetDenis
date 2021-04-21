@@ -1,6 +1,5 @@
-
-
-[![Build Status](https://travis-ci.org/SmetDenis/SmetDenis.svg?branch=master)](https://travis-ci.org/SmetDenis/SmetDenis)    [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg)](https://coveralls.io/github/SmetDenis/SmetDenis)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)    [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smetdenis/smetdenis/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smetdenis/smetdenis/?branch=master)    [![PHP Strict Types](https://img.shields.io/badge/strict__types-%3D1-brightgreen)](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict)
+[![Build Status](https://travis-ci.org/SmetDenis/SmetDenis.svg?branch=master)](https://travis-ci.org/SmetDenis/SmetDenis) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSmetDenis%2FSmetDenis.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSmetDenis%2FSmetDenis?ref=badge_shield)
+   [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg)](https://coveralls.io/github/SmetDenis/SmetDenis)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)    [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smetdenis/smetdenis/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smetdenis/smetdenis/?branch=master)    [![PHP Strict Types](https://img.shields.io/badge/strict__types-%3D1-brightgreen)](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict)
 
 
 
@@ -48,3 +47,7 @@
 - [Facebook](https://www.facebook.com/smet.denis)
 - [Instagram](https://instagram.com/smetdenis)
 - [ВКонтакте](https://vk.com/smetdenis)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSmetDenis%2FSmetDenis.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSmetDenis%2FSmetDenis?ref=badge_large)
