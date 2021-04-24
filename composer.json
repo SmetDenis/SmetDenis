@@ -1,10 +1,10 @@
 {
-    "name"              : "smetdenis/smetdenis",
-    "type"              : "library",
-    "description"       : "SmetDenis Profile readme file",
-    "license"           : "MIT",
+    "name"         : "smetdenis/smetdenis",
+    "type"         : "library",
+    "description"  : "SmetDenis Profile readme file",
+    "license"      : "MIT",
 
-    "authors"           : [
+    "authors"      : [
         {
             "name"  : "Denis Smetannikov",
             "email" : "admin@jbzoo.com",
@@ -12,27 +12,25 @@
         }
     ],
 
-    "require"           : {
+    "require"      : {
         "php" : ">=7.2"
     },
 
-    "require-dev"       : {
-        "jbzoo/toolbox-dev" : "^2.9.3"
+    "require-dev"  : {
+        "jbzoo/toolbox-dev" : "^2.11.0"
     },
 
-    "autoload"      : {
+    "autoload"     : {
         "psr-4" : {
             "SmetDenis\\SmetDenis\\" : "src"
         }
     },
 
-    "autoload-dev"      : {
+    "autoload-dev" : {
         "classmap" : ["tests"]
     },
 
-    "minimum-stability" : "dev",
-    "prefer-stable"     : true,
-    "config"            : {
+    "config"       : {
         "optimize-autoloader" : true
     }
 }
