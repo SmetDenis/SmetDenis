@@ -17,7 +17,9 @@
     },
 
     "require-dev"  : {
-        "jbzoo/toolbox-dev" : "^2.12.0"
+        "jbzoo/toolbox-dev"    : "^2.12.0",
+        "jbzoo/composer-graph" : "^1.2.1",
+        "jbzoo/composer-diff"  : "^1.4.0"
     },
 
     "autoload"     : {

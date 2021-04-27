@@ -67,12 +67,12 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             ['JBZoo', 'Toolbox'],
         ],
         'Developer Tools' => [
-            ['JBZoo', 'Mock-Server'],
+            ['JBZoo', 'CI-Report-Converter'],
             ['JBZoo', 'Composer-Diff'],
             ['JBZoo', 'Composer-Graph'],
+            ['JBZoo', 'Mock-Server'],
             ['JBZoo', 'Codestyle'],
             ['JBZoo', 'PHPUnit'],
-            ['JBZoo', 'Toolbox-CI'],
             ['JBZoo', 'Toolbox-Dev'],
             ['JBZoo', 'Skeleton-PHP'],
         ]
@@ -117,6 +117,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
     public function testDashBoardTable(): void
     {
+        skip('Deprecated');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -140,6 +141,39 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
             $result[] = $table->render(['Project', 'Info'], $rows);
             $result[] = '';
+            $result[] = '';
+        }
+
+        $expected = implode("\n", $result);
+        isTrue(strpos(self::getReadme(), $expected) !== false, $expected);
+    }
+
+    public function testDashBoardByLines(): void
+    {
+        $result = [];
+
+        foreach ($this->projects as $group => $projects) {
+            $result[] = "### {$group}";
+            $result[] = "";
+
+            $rows = [];
+
+            foreach ($projects as $project) {
+                [$vendor, $name] = $project;
+
+                $this->vendorName = $vendor;
+                $this->packageName = $name;
+
+                $rows[] = implode("\n", [
+                    $this->getGithubLink($vendor, $name),
+                    '',
+                    $this->buildStatusBadges(),
+                    '',
+                    ''
+                ]);
+            }
+
+            $result[] = implode("\n", $rows);
             $result[] = '';
         }
 
