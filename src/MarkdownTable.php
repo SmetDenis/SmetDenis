@@ -40,13 +40,13 @@ class MarkdownTable
     private $alignments = [];
 
     /**
-     * @var array
+     * @var array[]
      */
     private $rows = [];
 
     /**
-     * @param array $header
-     * @param array $rows
+     * @param string[] $header
+     * @param array[]  $rows
      * @return string
      */
     public function render(array $header, array $rows): string
@@ -66,24 +66,22 @@ class MarkdownTable
     {
         $widths = [];
 
-        foreach (array_merge([$this->headers], $this->rows) as $row) {
-            $max = count($row);
+        foreach (\array_merge([$this->headers], $this->rows) as $row) {
+            $max = \count($row);
 
             for ($colIndex = 0; $colIndex < $max; $colIndex++) {
-                $iWidth = strlen((string)$row[$colIndex]);
+                $iWidth = \strlen((string)$row[$colIndex]);
 
-                if ((!array_key_exists($colIndex, $widths)) || $iWidth > $widths[$colIndex]) {
+                if ((!\array_key_exists($colIndex, $widths)) || $iWidth > $widths[$colIndex]) {
                     $widths[$colIndex] = $iWidth;
                 }
             }
         }
 
         // all columns must be at least 3 wide for the markdown to work
-        $widths = array_map(static function (int $width) {
+        return \array_map(static function (int $width): int {
             return $width >= self::CELL_MIN_LENGTH ? $width : self::CELL_MIN_LENGTH;
         }, $widths);
-
-        return $widths;
     }
 
     /**
@@ -104,7 +102,7 @@ class MarkdownTable
     {
         $result = '| ';
 
-        foreach (array_keys($this->headers) as $colIndex) {
+        foreach (\array_keys($this->headers) as $colIndex) {
             $result .= self::renderCell(
                 $this->headers[$colIndex],
                 $this->getColumnAlign($colIndex),
@@ -114,9 +112,7 @@ class MarkdownTable
             $result .= ' | ';
         }
 
-        $result = rtrim($result, ' ') . PHP_EOL . $this->renderAlignments($widths) . PHP_EOL;
-
-        return $result;
+        return \rtrim($result, ' ') . \PHP_EOL . $this->renderAlignments($widths) . \PHP_EOL;
     }
 
     /**
@@ -131,12 +127,12 @@ class MarkdownTable
             $result .= '| ';
 
             /** @var string $colIndex */
-            foreach (array_keys($row) as $colIndex) {
+            foreach (\array_keys($row) as $colIndex) {
                 $result .= self::renderCell($row[$colIndex], $this->getColumnAlign($colIndex), $widths[$colIndex]);
                 $result .= ' | ';
             }
 
-            $result = rtrim($result, ' ') . PHP_EOL;
+            $result = \rtrim($result, ' ') . \PHP_EOL;
         }
 
         return $result;
@@ -151,14 +147,14 @@ class MarkdownTable
     protected static function renderCell(string $contents, string $alignment, int $width): string
     {
         $map = [
-            self::A_LEFT   => STR_PAD_RIGHT,
-            self::A_CENTER => STR_PAD_BOTH,
-            self::A_RIGHT  => STR_PAD_LEFT,
+            self::A_LEFT   => \STR_PAD_RIGHT,
+            self::A_CENTER => \STR_PAD_BOTH,
+            self::A_RIGHT  => \STR_PAD_LEFT,
         ];
 
-        $padType = $map[$alignment] ?? STR_PAD_LEFT;
+        $padType = $map[$alignment] ?? \STR_PAD_LEFT;
 
-        return str_pad($contents, $width, ' ', $padType);
+        return \str_pad($contents, $width, ' ', $padType);
     }
 
     /**
@@ -170,19 +166,19 @@ class MarkdownTable
         $row = '|';
 
         foreach ($widths as $colIndex => $colIndexValue) {
-            $cell = str_repeat('-', $colIndexValue + 2);
+            $cell = \str_repeat('-', $colIndexValue + 2);
             $align = $this->getColumnAlign($colIndex);
 
             if ($align === self::A_CENTER) {
-                $cell = ':' . substr($cell, 2) . ':';
+                $cell = ':' . \substr($cell, 2) . ':';
             }
 
             if ($align === self::A_RIGHT) {
-                $cell = substr($cell, 1) . ':';
+                $cell = \substr($cell, 1) . ':';
             }
 
             if ($align === self::A_LEFT) {
-                $cell = ':' . substr($cell, 1);
+                $cell = ':' . \substr($cell, 1);
             }
 
             $row .= $cell . '|';
@@ -200,7 +196,7 @@ class MarkdownTable
         $validAligns = [self::A_LEFT, self::A_CENTER, self::A_RIGHT];
         $result = $this->alignments[$colIndex] ?? self::A_LEFT;
 
-        if (!in_array($result, $validAligns, true)) {
+        if (!\in_array($result, $validAligns, true)) {
             throw new \Exception("Invalid alignment for column index {$colIndex}: {$result}");
         }
 

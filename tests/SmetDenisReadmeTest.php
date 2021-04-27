@@ -41,6 +41,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
      */
     protected $badgesTemplate = [
         'travis',
+        'github_actions',
         'coveralls',
         'psalm_coverage',
         'scrutinizer',
@@ -103,6 +104,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         'circle_ci'               => true,
         'strict_types'            => true,
         'scrutinizer'             => true,
+        'github_actions'          => true,
     ];
 
     /**
@@ -161,12 +163,15 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
     private function buildStatusBadges(): string
     {
         return implode('    ', [
+            $this->checkBadgeLatestStableVersion(),
             $this->checkBadgeTravis(),
+            $this->checkBadgeGithubActions(),
+
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
-            $this->checkBadgeLatestStableVersion(),
-            $this->checkBadgeGithubStars(),
             $this->checkBadgeScrutinizer(),
+
+            $this->checkBadgeGithubStars(),
         ]);
     }
 
@@ -179,6 +184,18 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             'Build Status',
             'https://travis-ci.org/__VENDOR_ORIG__/__PACKAGE_ORIG__.svg?branch=master',
             'https://travis-ci.org/__VENDOR_ORIG__/__PACKAGE_ORIG__'
+        ));
+    }
+
+    /**
+     * @return string|null
+     */
+    protected function checkBadgeGithubActions(): ?string
+    {
+        return $this->getPreparedBadge($this->getBadge(
+            'CI',
+            'https://github.com/__VENDOR_ORIG__/__PACKAGE_ORIG__/actions/workflows/main.yml/badge.svg?branch=master',
+            'https://github.com/__VENDOR_ORIG__/__PACKAGE_ORIG__/actions/workflows/main.yml'
         ));
     }
 }
