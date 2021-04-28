@@ -145,11 +145,12 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
         $expected = implode("\n", $result);
         isTrue($expected); // deprecated placeholder
-        //isTrue(strpos(self::getReadme(), $expected) !== false, $expected);
+        isTrue(strpos(self::getReadme(), $expected) !== false, $expected);
     }
 
     public function testDashBoardByLines(): void
     {
+        skip('disabled');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -200,12 +201,10 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             $this->checkBadgeLatestStableVersion(),
             $this->checkBadgeTravis(),
             $this->checkBadgeGithubActions(),
-
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
-            $this->checkBadgeScrutinizer(),
-
-            $this->checkBadgeGithubStars(),
+            //$this->checkBadgeScrutinizer(),
+            //$this->checkBadgeGithubStars(),
         ]);
     }
 
@@ -232,4 +231,6 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             'https://github.com/__VENDOR_ORIG__/__PACKAGE_ORIG__/actions/workflows/main.yml?query=branch%3Amaster'
         ));
     }
+
+
 }
