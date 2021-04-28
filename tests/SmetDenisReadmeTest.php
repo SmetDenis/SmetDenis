@@ -232,5 +232,15 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         ));
     }
 
-
+    /**
+     * @return string|null
+     */
+    protected function checkBadgeCoveralls(): ?string
+    {
+        return $this->getPreparedBadge($this->getBadge(
+            'Coverage Status',
+            'https://coveralls.io/repos/__VENDOR_ORIG__/__PACKAGE_ORIG__/badge.svg?branch=master',
+            'https://coveralls.io/github/__VENDOR_ORIG__/__PACKAGE_ORIG__?branch=master'
+        ));
+    }
 }
