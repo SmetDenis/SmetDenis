@@ -199,7 +199,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
     {
         return implode('    ', [
             $this->checkBadgeLatestStableVersion(),
-            $this->checkBadgeTravis(),
+            //$this->checkBadgeTravis(),
             $this->checkBadgeGithubActions(),
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
