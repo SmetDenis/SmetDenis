@@ -40,7 +40,6 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
      * @var string[]
      */
     protected $badgesTemplate = [
-        'travis',
         'github_actions',
         'coveralls',
         'psalm_coverage',
@@ -64,6 +63,8 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             ['JBZoo', 'Mermaid-PHP'],
             ['JBZoo', 'Retry'],
             ['JBZoo', 'SimpleTypes'],
+            ['JBZoo', 'Cli'],
+            ['JBZoo', 'Markdown'],
             ['JBZoo', 'Toolbox'],
         ],
         'Developer Tools' => [
@@ -199,11 +200,9 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
     {
         return implode('    ', [
             $this->checkBadgeLatestStableVersion(),
-            //$this->checkBadgeTravis(),
             $this->checkBadgeGithubActions(),
             $this->checkBadgeCoveralls(),
             $this->checkBadgePsalmCoverage(),
-            //$this->checkBadgeScrutinizer(),
             //$this->checkBadgeGithubStars(),
         ]);
     }
