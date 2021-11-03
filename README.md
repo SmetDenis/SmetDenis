@@ -1,7 +1,6 @@
 
 
-[![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)    [![Coverage Status](https://coveralls.io/repos/SmetDenis/SmetDenis/badge.svg?branch=master)](https://coveralls.io/github/SmetDenis/SmetDenis?branch=master)    [![Psalm Coverage](https://shepherd.dev/github/SmetDenis/SmetDenis/coverage.svg)](https://shepherd.dev/github/SmetDenis/SmetDenis)    [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smetdenis/smetdenis/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smetdenis/smetdenis/?branch=master)    [![PHP Strict Types](https://img.shields.io/badge/strict__types-%3D1-brightgreen)](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict)
-
+[![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)
 
 
 # Dashboard

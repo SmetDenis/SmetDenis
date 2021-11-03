@@ -41,10 +41,6 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
      */
     protected $badgesTemplate = [
         'github_actions',
-        'coveralls',
-        'psalm_coverage',
-        'scrutinizer',
-        'strict_types',
     ];
 
     /**
