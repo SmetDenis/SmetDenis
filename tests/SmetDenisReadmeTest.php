@@ -17,7 +17,7 @@ declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
-use SmetDenis\SmetDenis\MarkdownTable;
+use JBZoo\Markdown\Table;
 
 /**
  * Class SmetDenisReadmeTest
@@ -126,7 +126,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
             $rows = [];
 
-            $table = new MarkdownTable();
+            $table = new Table();
             foreach ($projects as $project) {
                 [$vendor, $name] = $project;
 
@@ -139,7 +139,10 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
                 ];
             }
 
-            $result[] = $table->render(['Project', 'Info'], $rows);
+            $result[] = $table
+                ->setHeaders(['Project', 'Info'])
+                ->appendRows($rows)
+                ->render();
             $result[] = '';
             $result[] = '';
         }
