@@ -1,6 +1,6 @@
-## Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+## Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">  ![](https://visitor-badge.glitch.me/badge?page_id=smetdenis)
 
-![](https://visitor-badge.glitch.me/badge?page_id=smetdenis)    [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)
+[![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)
 
 
 # My Projects (Dashboard)
