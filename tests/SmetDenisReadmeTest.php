@@ -205,6 +205,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             $this->checkBadgePsalmCoverage(),
             $this->checkBadgeGithubStars(),
             $this->checkBadgeTotalDownloads(),
+            $this->checkBadgeGithubForks(),
             $this->checkBadgeGithubIssues(),
         ]);
     }
