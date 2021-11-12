@@ -114,7 +114,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
     public function testDashBoardTable(): void
     {
-        // skip('disabled');
+        skip('disabled');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -176,7 +176,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             }
 
             $result[] = implode("\n", $rows);
-            $result[] = '';
+            $result[] = '----';
         }
 
         $expected = implode("\n", $result);
@@ -205,19 +205,8 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
             $this->checkBadgePsalmCoverage(),
             $this->checkBadgeGithubStars(),
             $this->checkBadgeTotalDownloads(),
+            $this->checkBadgeGithubIssues(),
         ]);
-    }
-
-    /**
-     * @return string|null
-     */
-    protected function checkBadgeTravis(): ?string
-    {
-        return $this->getPreparedBadge($this->getBadge(
-            'Build Status',
-            'https://travis-ci.org/__VENDOR_ORIG__/__PACKAGE_ORIG__.svg?branch=master',
-            'https://travis-ci.org/__VENDOR_ORIG__/__PACKAGE_ORIG__'
-        ));
     }
 
     /**
