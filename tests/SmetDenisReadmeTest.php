@@ -114,6 +114,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
     public function testDashBoardTable(): void
     {
+        // skip('disabled');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -150,7 +151,7 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
 
     public function testDashBoardByLines(): void
     {
-        skip('disabled');
+        //skip('disabled');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
