@@ -112,6 +112,11 @@ class SmetDenisReadmeTest extends AbstractReadmeTest
         return '';
     }
 
+    public function testReadmeHeader(): void
+    {
+        skip('No need');
+    }
+
     public function testDashBoardTable(): void
     {
         skip('disabled');
