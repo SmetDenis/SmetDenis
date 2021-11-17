@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="3063" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="3117" class="">
     <defs>
         <style/>
     </defs>
@@ -1536,7 +1536,7 @@
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/></svg>
-              508 MB used
+              509 MB used
             </div>
                                 <div class="field ">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/></svg>
@@ -1808,21 +1808,21 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 1318 edited files from 1810 commits
+            estimation from 1342 edited files from 1828 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="402.3236464862613" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="402.3236464862613" y="0" width="27.80087488401159" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="430.12452137027293" y="0" width="21.162421648645065" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="451.28694301891795" y="0" width="5.063858958092677" height="8" fill="#1d365d"/>
-                    <rect mask="url(#languages-bar)" x="456.35080197701063" y="0" width="1.3519419773893613" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="457.70274395440003" y="0" width="0.9881720226485126" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="458.6909159770485" y="0" width="0.9230139943568086" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="459.61392997140535" y="0" width="0.38607002859469386" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="402.7187048627829" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="402.7187048627829" y="0" width="27.61045077034184" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="430.32915563312474" y="0" width="21.01746810303322" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="451.34662373615794" y="0" width="5.029173688011555" height="8" fill="#1d365d"/>
+                    <rect mask="url(#languages-bar)" x="456.3757974241695" y="0" width="1.3426817525276842" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="457.71847917669714" y="0" width="0.9814034665382764" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="458.69988264323547" y="0" width="0.9166917428984113" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="459.61657438613383" y="0" width="0.3834256138661531" height="8" fill="#e34c26"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -5029,21 +5029,21 @@
                     <section class="largeable-column-fields">
                         <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/></svg>
-              From <span class="blue space">JBZoo/Retry</span>
+              From <span class="blue space">JBZoo/Codestyle</span>
             </div>
                         <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-              Update deps
+              Fixed coverage badge
             </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">83164e2c</span>
-                            <span class="code">composer.json</span>
+                            <span class="code">55352b56</span>
+                            <span class="code">.github/workflows/main.yml</span>
                             <span class="code">
-                                <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++5</span>
+                                <span class="snippet deletions">--0</span>
                             </span>
                         </div>
                     </section>
@@ -5051,22 +5051,26 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -25,7 +25,7 @@</span>
-<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   },
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -57,6 +57,11 @@</span>
+jobs:
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">     - name: 🧪 PHPUnit Tests
+</span><span class="token prefix unchanged"> </span><span class="token line">       run: make test --no-print-directory
 </span></span>
-<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   "require-dev"  : {
-</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       "jbzoo/toolbox-dev" : "^2.13.1"
-</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       "jbzoo/toolbox-dev" : "^3.1.0"
-</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   },
-</span></span>
-<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   "replace"      : {</span></span></code>
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">     - name: Uploading coverage to coveralls
+</span><span class="token prefix inserted">+</span><span class="token line">       env:
+</span><span class="token prefix inserted">+</span><span class="token line">           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</span><span class="token prefix inserted">+</span><span class="token line">       run: make report-coveralls --no-print-directory
+</span><span class="token prefix inserted">+</span><span class="token line">
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">     - name: Upload Artifacts
+</span><span class="token prefix unchanged"> </span><span class="token line">       uses: actions/upload-artifact@v2
+</span><span class="token prefix unchanged"> </span><span class="token line">       continue-on-error: true</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 17 Nov 2021, 17:42:35 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 17 Nov 2021, 18:55:28 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
