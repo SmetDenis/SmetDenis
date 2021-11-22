@@ -82,5 +82,5 @@ jobs:
           plugin_reactions_display: absolute
           plugin_reactions_details: count, percentage
           plugin_stargazers: yes
-          plugin_code: yes
+          plugin_code: false
           plugin_code_load: 100
