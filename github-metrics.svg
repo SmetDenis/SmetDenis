@@ -1808,7 +1808,7 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 1342 edited files from 1819 commits
+            estimation from 1344 edited files from 1830 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -4094,7 +4094,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>IonBazan/composer-diff</span>
-                                        <span>starred 2 hours ago</span>
+                                        <span>starred 3 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -5017,7 +5017,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Nov 2021, 21:36:08 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 23 Nov 2021, 22:38:59 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
