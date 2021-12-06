@@ -4089,7 +4089,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>starship/starship</span>
-                                        <span>starred 5 hours ago</span>
+                                        <span>starred 6 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4131,7 +4131,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>jenssegers/agent</span>
-                                        <span>starred 8 hours ago</span>
+                                        <span>starred 9 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4173,7 +4173,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>veggiemonk/awesome-docker</span>
-                                        <span>starred 8 hours ago</span>
+                                        <span>starred 9 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4211,7 +4211,7 @@
                                         </svg>
                                         <div class="name">
                                             <span>avelino/awesome-go</span>
-                                            <span>starred 8 hours ago</span>
+                                            <span>starred 9 hours ago</span>
                                         </div>
                                     </div>
                                     <div class="field description">
@@ -5012,7 +5012,7 @@
                 </section>
                 <footer>
                     <span>These metrics include private contributions</span>
-                    <span>Last updated 6 Dec 2021, 07:37:17 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                    <span>Last updated 6 Dec 2021, 08:46:56 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
                 </footer>
             </section>
             <div id="metrics-end"></div>
