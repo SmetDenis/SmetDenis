@@ -1808,7 +1808,7 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 1342 edited files from 1824 commits
+            estimation from 1344 edited files from 1835 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -5012,7 +5012,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 21 Dec 2021, 04:54:58 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 21 Dec 2021, 05:41:35 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
