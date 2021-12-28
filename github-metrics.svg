@@ -2018,6 +2018,11 @@
                 <section class="column chart">
                     <h3>Language activity</h3>
                     <div class="chart-bars horizontal">
+                        <div class="entry">
+                            <span class="name">Hack</span>
+                            <div class="bar" style="width: 80%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">100%</span>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -4043,7 +4048,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>spatie/laravel-health</span>
-                                        <span>starred 23 hours ago</span>
+                                        <span>starred 24 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4085,7 +4090,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ertuo-php/ertuo</span>
-                                        <span>starred 23 hours ago</span>
+                                        <span>starred 24 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4127,7 +4132,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>Roave/BetterReflection</span>
-                                        <span>starred 23 hours ago</span>
+                                        <span>starred 24 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4169,7 +4174,7 @@
                                         </svg>
                                         <div class="name">
                                             <span>aimeos/upscheme</span>
-                                            <span>starred 23 hours ago</span>
+                                            <span>starred 24 hours ago</span>
                                         </div>
                                     </div>
                                     <div class="field description">
@@ -4966,7 +4971,7 @@
                 </section>
                 <footer>
                     <span>These metrics include private contributions</span>
-                    <span>Last updated 28 Dec 2021, 16:37:45 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                    <span>Last updated 28 Dec 2021, 17:43:26 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
                 </footer>
             </section>
             <div id="metrics-end"></div>
