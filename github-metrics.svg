@@ -4048,7 +4048,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>jaegertracing/jaeger</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 2 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4971,7 +4971,7 @@
                 </section>
                 <footer>
                     <span>These metrics include private contributions</span>
-                    <span>Last updated 28 Dec 2021, 21:36:09 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                    <span>Last updated 28 Dec 2021, 22:40:05 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
                 </footer>
             </section>
             <div id="metrics-end"></div>
