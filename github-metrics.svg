@@ -1808,7 +1808,7 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 1344 edited files from 1839 commits
+            estimation from 1345 edited files from 1840 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -4101,7 +4101,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>spatie/laravel-health</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4143,7 +4143,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ertuo-php/ertuo</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4185,7 +4185,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>Roave/BetterReflection</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4982,7 +4982,7 @@
                 </section>
                 <footer>
                     <span>These metrics include private contributions</span>
-                    <span>Last updated 31 Dec 2021, 17:43:22 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                    <span>Last updated 31 Dec 2021, 19:01:29 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
                 </footer>
             </section>
             <div id="metrics-end"></div>
