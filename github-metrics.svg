@@ -1808,7 +1808,7 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 1344 edited files from 1839 commits
+            estimation from 1345 edited files from 1840 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -2018,11 +2018,6 @@
                 <section class="column chart">
                     <h3>Language activity</h3>
                     <div class="chart-bars horizontal">
-                        <div class="entry">
-                            <span class="name">Hack</span>
-                            <div class="bar" style="width: 80%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                            <span class="value">100%</span>
-                        </div>
                     </div>
                 </section>
             </div>
@@ -4064,7 +4059,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>jaegertracing/jaeger</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -4991,7 +4986,7 @@
                 </section>
                 <footer>
                     <span>These metrics include private contributions</span>
-                    <span>Last updated 1 Jan 2022, 20:44:55 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
+                    <span>Last updated 1 Jan 2022, 21:36:00 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.16.0</span>
                 </footer>
             </section>
             <div id="metrics-end"></div>
