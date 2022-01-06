@@ -472,7 +472,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1345 edited files from 1840 commits</small>
+                <small>estimation from 1343 edited files from 1829 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -2759,7 +2759,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>sorin-ionescu/prezto</span>
-                                        <span>starred 5 hours ago</span>
+                                        <span>starred 6 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">The configuration framework for Zsh</div>
@@ -2812,7 +2812,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ohmyzsh/ohmyzsh</span>
-                                        <span>starred 8 hours ago</span>
+                                        <span>starred 9 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.</div>
@@ -2865,7 +2865,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>zsh-users/zsh-autosuggestions</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Fish-like autosuggestions for zsh</div>
@@ -3643,7 +3643,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 301k out of 273m repositories</span>
+                                    <span class="gh">ranked 302k out of 273m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 79 stars</div>
                             </div>
@@ -3653,7 +3653,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 6 Jan 2022, 22:39:59 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
+                <span>Last updated 6 Jan 2022, 23:39:03 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
