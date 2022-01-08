@@ -2769,7 +2769,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>bamarni/symfony-console-autocomplete</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 2 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Shell autocompletion for Symfony Console based scripts</div>
@@ -2822,7 +2822,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>stecman/symfony-console-completion</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 2 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Automatic tab-key completion for Symfony console application options, arguments and parameters</div>
@@ -2875,7 +2875,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>rupa/z</span>
-                                        <span>starred 4 hours ago</span>
+                                        <span>starred 5 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">z - jump around</div>
@@ -2928,7 +2928,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>romkatv/powerlevel10k</span>
-                                        <span>starred 4 hours ago</span>
+                                        <span>starred 5 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A Zsh theme</div>
@@ -3663,7 +3663,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jan 2022, 16:37:37 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
+                <span>Last updated 8 Jan 2022, 17:42:53 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
