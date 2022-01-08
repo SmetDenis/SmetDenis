@@ -472,7 +472,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1343 edited files from 1829 commits</small>
+                <small>estimation from 1345 edited files from 1840 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -2775,7 +2775,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>unixorn/awesome-zsh-plugins</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A collection of ZSH frameworks, plugins, themes and tutorials.</div>
@@ -2828,7 +2828,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>sharkdp/bat</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A cat(1) clone with wings.</div>
@@ -2881,7 +2881,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>sharkdp/fd</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A simple, fast and user-friendly alternative to 'find'</div>
@@ -2934,7 +2934,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>tldr-pages/tldr</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">📚 Collaborative cheatsheets for console commands</div>
@@ -3669,7 +3669,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jan 2022, 20:45:22 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
+                <span>Last updated 8 Jan 2022, 21:36:02 (timezone Europe/Kaliningrad) with lowlighter/metrics@3.17.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
