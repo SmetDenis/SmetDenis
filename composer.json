@@ -17,10 +17,10 @@
     },
 
     "require-dev"  : {
-        "jbzoo/toolbox-dev"    : "^2.12.0",
-        "jbzoo/composer-graph" : "^1.2.1",
-        "jbzoo/composer-diff"  : "^1.4.0",
-        "jbzoo/markdown"       : "^1.1.0"
+        "jbzoo/toolbox-dev"    : "^2.13.1",
+        "jbzoo/composer-graph" : "^1.3.2",
+        "jbzoo/composer-diff"  : "^1.5.2",
+        "jbzoo/markdown"       : "^1.1.1"
     },
 
     "autoload"     : {
