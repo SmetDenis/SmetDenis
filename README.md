@@ -1,4 +1,4 @@
-Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">    [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)    [![Metrics](https://github.com/SmetDenis/SmetDenis/actions/workflows/metrics.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/metrics.yml?query=branch%3Amaster)    ![](https://visitor-badge.glitch.me/badge?page_id=smetdenis)
+Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)    [![Metrics](https://github.com/SmetDenis/SmetDenis/actions/workflows/metrics.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/metrics.yml?query=branch%3Amaster)    ![](https://visitor-badge.glitch.me/badge?page_id=smetdenis)
 
 # My Projects (Dashboard)
 
