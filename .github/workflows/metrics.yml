@@ -26,7 +26,7 @@ jobs:
           user: SmetDenis
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Kaliningrad
+          config_timezone: Asia/Dubai
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_limit: 10
