@@ -1,24 +1,21 @@
 <?php
 
 /**
- * SmetDenis - Readme
+ * SmetDenis - Readme.
  *
- * This file is part of the SmetDenis project.
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * Denis Smetannikov - Personal Dashboard on GitHub.
  *
- * @package    Readme
  * @license    MIT
- * @copyright  Copyright (C) Denis Smetannikov, All rights reserved.
- * @link       https://github.com/SmetDenis
+ * @copyright  SmetDenis/Readme. All rights reserved.
+ * @see        https://github.com/SmetDenis
  */
 
 declare(strict_types=1);
 
 // main autoload
-if ($autoload = realpath('./vendor/autoload.php')) {
+if ($autoload = \realpath('./vendor/autoload.php')) {
     require_once $autoload;
 } else {
-    echo 'Please execute "composer update" !' . PHP_EOL;
+    echo 'Please execute "composer update" !' . \PHP_EOL;
     exit(1);
 }

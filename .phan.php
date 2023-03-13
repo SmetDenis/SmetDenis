@@ -12,9 +12,10 @@
 
 declare(strict_types=1);
 
-namespace SmetDenis\Readme;
+$default = include __DIR__ . '/vendor/jbzoo/codestyle/src/phan.php';
 
-class MarkdownTable
-{
-    // deprecated
-}
+return \array_merge($default, [
+    'directory_list' => [
+        'src',
+    ],
+]);

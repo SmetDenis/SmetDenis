@@ -1,10 +1,16 @@
 {
-    "name"         : "smetdenis/smetdenis",
-    "type"         : "library",
-    "description"  : "SmetDenis Profile readme file",
-    "license"      : "MIT",
+    "name"              : "smetdenis/readme",
+    "type"              : "library",
+    "description"       : "SmetDenis Profile readme file",
+    "license"           : "MIT",
 
-    "authors"      : [
+    "keywords"          : [
+        "readme",
+        "profile",
+        "smetdenis"
+    ],
+
+    "authors"           : [
         {
             "name"  : "Denis Smetannikov",
             "email" : "admin@jbzoo.com",
@@ -12,28 +18,34 @@
         }
     ],
 
-    "require"      : {
-        "php" : ">=7.2"
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
+
+    "require"           : {
+        "php" : "^8.1"
     },
 
-    "require-dev"  : {
-        "jbzoo/toolbox-dev"    : "^2.13.1",
-        "jbzoo/composer-graph" : "^1.3.2",
-        "jbzoo/composer-diff"  : "^1.5.2",
-        "jbzoo/markdown"       : "^1.1.1"
+    "require-dev"       : {
+        "jbzoo/toolbox-dev" : "7.x-dev",
+        "jbzoo/markdown"    : "7.x-dev"
     },
 
-    "autoload"     : {
-        "psr-4" : {
-            "SmetDenis\\SmetDenis\\" : "src"
+    "autoload"          : {
+        "psr-4" : {"SmetDenis\\Readme\\" : "src"}
+    },
+
+    "autoload-dev"      : {
+        "psr-4" : {"SmetDenis\\PHPUnit\\" : "tests"}
+    },
+
+    "config"            : {
+        "optimize-autoloader" : true,
+        "allow-plugins"       : {"composer/package-versions-deprecated" : true}
+    },
+
+    "extra"             : {
+        "branch-alias" : {
+            "dev-master" : "7.x-dev"
         }
-    },
-
-    "autoload-dev" : {
-        "classmap" : ["tests"]
-    },
-
-    "config"       : {
-        "optimize-autoloader" : true
     }
 }

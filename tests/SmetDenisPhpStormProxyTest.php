@@ -12,9 +12,8 @@
 
 declare(strict_types=1);
 
-namespace SmetDenis\Readme;
+namespace SmetDenis\PHPUnit;
 
-class MarkdownTable
+final class SmetDenisPhpStormProxyTest extends \JBZoo\Codestyle\PHPUnit\AbstractPhpStormProxyTest
 {
-    // deprecated
 }
