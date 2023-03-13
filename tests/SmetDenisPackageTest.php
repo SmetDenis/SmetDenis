@@ -30,7 +30,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
 
     /** @var string[][][] */
     protected $projects = [
-        'PHP Libraries' => [
+        'PHP Libraries'   => [
             ['JBZoo', 'Utils'],
             ['JBZoo', 'Data'],
             ['JBZoo', 'Image'],
@@ -76,13 +76,11 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             foreach ($projects as $project) {
                 [$vendor, $name] = $project;
 
-                $this->vendorName  = $vendor;
+                $this->vendorName = $vendor;
                 $this->packageName = $name;
 
                 $rows[] = \implode("\n", [
-                    $this->getGithubLink($vendor, $name),
-                    '',
-                    $this->buildStatusBadges(),
+                    $this->getGithubLink($vendor, $name).'  ' . $this->buildStatusBadges(),
                     '',
                     '',
                 ]);
@@ -112,12 +110,11 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             foreach ($projects as $project) {
                 [$vendor, $name] = $project;
 
-                $this->vendorName  = $vendor;
+                $this->vendorName = $vendor;
                 $this->packageName = $name;
 
                 $rows[] = [
-                    $this->getGithubLink($vendor, $name),
-                    $this->buildStatusBadges(),
+                    $this->getGithubLink($vendor, $name) . '  ' . $this->buildStatusBadges(),
                 ];
             }
 
@@ -150,8 +147,8 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
                 $this->checkBadgePsalmCoverage(),
                 $this->checkBadgeGithubStars(),
                 $this->checkBadgePackagistDownloadsTotal(),
-                $this->checkBadgeGithubForks(),
-                $this->checkBadgeGithubIssues(),
+                //$this->checkBadgeGithubForks(),
+                //$this->checkBadgeGithubIssues(),
             ]),
         );
     }
