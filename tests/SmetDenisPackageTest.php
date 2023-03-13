@@ -133,7 +133,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
 
     private function getGithubLink(string $vendor, string $name): string
     {
-        return "[{$vendor}/{$name}](https://github.com/{$vendor}/{$name})";
+        return "[{$name}](https://github.com/{$vendor}/{$name})";
     }
 
     private function buildStatusBadges(): string
