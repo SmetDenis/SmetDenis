@@ -65,6 +65,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
 
     public function testDashBoardByLines(): void
     {
+        skip('No need');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -80,7 +81,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
                 $this->packageName = $name;
 
                 $rows[] = \implode("\n", [
-                    $this->getGithubLink($vendor, $name).'  ' . $this->buildStatusBadges(),
+                    $this->getGithubLink($vendor, $name) . '  ' . $this->buildStatusBadges(),
                     '',
                     '',
                 ]);
@@ -96,7 +97,6 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
 
     public function testDashBoardTable(): void
     {
-        skip('disabled');
         $result = [];
 
         foreach ($this->projects as $group => $projects) {
@@ -114,7 +114,8 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
                 $this->packageName = $name;
 
                 $rows[] = [
-                    $this->getGithubLink($vendor, $name) . '  ' . $this->buildStatusBadges(),
+                    $this->getGithubLink($vendor, $name),
+                    $this->buildStatusBadges(),
                 ];
             }
 
@@ -127,7 +128,6 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
         }
 
         $expected = \implode("\n", $result);
-        isTrue($expected); // deprecated placeholder
         isTrue(\str_contains(self::getReadme(), $expected), $expected);
     }
 
