@@ -29,7 +29,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
     protected string $copyrightRights     = 'SmetDenis/Readme. All rights reserved.';
 
     /** @var string[][][] */
-    protected $projects = [
+    protected array $projects = [
         'PHP Libraries'   => [
             ['JBZoo', 'Utils'],
             ['JBZoo', 'Data'],
