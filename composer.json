@@ -26,8 +26,8 @@
     },
 
     "require-dev"       : {
-        "jbzoo/toolbox-dev" : "7.x-dev",
-        "jbzoo/markdown"    : "7.x-dev"
+        "jbzoo/toolbox-dev" : "^7.0",
+        "jbzoo/markdown"    : "^7.0"
     },
 
     "autoload"          : {
