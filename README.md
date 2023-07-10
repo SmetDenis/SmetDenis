@@ -1,4 +1,4 @@
-Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)    ![](https://visitor-badge.glitch.me/badge?page_id=smetdenis)
+Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)
 
 # My Projects (Dashboard)
 
