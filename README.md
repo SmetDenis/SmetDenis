@@ -11,7 +11,7 @@ Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/m
               (filter bad-practices?)
               (some enchantments)
               (do-it stateless)
-              (profit! as-money))}                         ; It just works!
+              (profit! as-money :your @pocket))}                         ; It just works!
 ```
 
 ```lisp
