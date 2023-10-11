@@ -7,11 +7,11 @@ Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/m
  :like   ["Clojure" "Databases" "Spark" "Python" "PHP" "Go" "JS"
           "SICP" `:code-as-data  `:infrastructure-as-data
           "Factorio" ["QMK" "Vial"]]
- :make   (->> [:business :idea ::state ::legacy]
-              (filter bad-practices)
+ :make   (->> [:business :idea ::state ::legacy-code]
+              (filter bad-practices?)
               (some enchantments)
               (do-it stateless)
-              (profit!))}                                 ; It just works!
+              (profit! as-money))}                         ; It just works!
 ```
 
 ```lisp
