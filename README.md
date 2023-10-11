@@ -1,5 +1,30 @@
 Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/SmetDenis/SmetDenis/actions/workflows/main.yml?query=branch%3Amaster)
 
+```clojure
+{:name   "Denis Smetannikov"
+ :gender :male
+ :role   (sort ["Lead BackEnd" "DevOps/DBA" "FrontEnd" "Team Lead" "SDM"])
+ :like   ["Clojure" "Databases" "Spark" "Python" "PHP" "Go" "JS"
+          "SICP" `:code-as-data  `:infrastructure-as-data
+          "Factorio" ["QMK" "Vial"]]
+ :make   (->> [:business :idea ::state ::legacy]
+              (filter bad-practices)
+              (some enchantments)
+              (do-it stateless)
+              (profit!))}                                 ; It just works!
+```
+
+```lisp
+// An incredibly huge thank you to Hexlet.io and Kirill
+const iter = (list, time, greyMatterAcc)
+  => (experiment)
+  => (f, ...k)
+  => (rtfm)
+  => iter(sicp(list, lisp(λ)), time(--x), ++greyMatterAcc);
+
+let youllNeverBeTheSame = iter(hexletCourses, yourTime, aLittleBitOfBrain);
+```
+
 # My Projects (Dashboard)
 
 #### PHP Libraries
