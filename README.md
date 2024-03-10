@@ -14,7 +14,7 @@ Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/m
               (profit! as-money :your @pocket))}                         ; It just works!
 ```
 
-```lisp
+```js
 // An incredibly huge thank you to Hexlet.io and Kirill
 const iter = (list, time, greyMatterAcc)
   => (experiment)
