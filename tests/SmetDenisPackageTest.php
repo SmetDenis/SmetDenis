@@ -44,6 +44,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             ['JBZoo', 'SimpleTypes'],
             ['JBZoo', 'Cli'],
             ['JBZoo', 'Markdown'],
+            ['JBZoo', 'Csv-Blueprint'],
        ],
         'Developer Tools' => [
             ['JBZoo', 'CI-Report-Converter'],
