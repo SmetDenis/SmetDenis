@@ -54,6 +54,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             ['JBZoo', 'Codestyle'],
             ['JBZoo', 'PHPUnit'],
             ['JBZoo', 'Toolbox-Dev'],
+            ['JBZoo', 'Toolbox'],
             ['JBZoo', 'Skeleton-PHP'],
         ],
     ];
