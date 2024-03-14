@@ -27,7 +27,8 @@ let youllNeverBeTheSame = iter(hexletCourses, yourTime, aLittleBitOfBrain);
 
 ### My GitHub Actions
 * [CSV Blueprint](https://github.com/JBZoo/Csv-Blueprint) - Strict and flexible schema-based CSV file validation to report in your PRs.
-* [CI Report Converter](JBZoo/CI-Report-Converter) - The tool converts different error reports to GitHub Actions (Annotations)
+* [CI Report Converter](https://github.com/JBZoo/CI-Report-Converter) - The tool converts different error reports to GitHub Actions (Annotations)
+* [Composer Diff](https://github.com/JBZoo/Composer-Diff) - Coming soon...
 
 
 ### Dashboard
