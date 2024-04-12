@@ -44,10 +44,10 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             ['JBZoo', 'Retry'],                 //   47
             ['JBZoo', 'Markdown'],              //  772
             ['JBZoo', 'Image'],                 //  108
-            ['JBZoo', 'Http-Client'],           //  143
         ],
 
         'hide' => [
+            ['JBZoo', 'Http-Client'],           //  143
             ['JBZoo', 'Assets'],                //   52
             ['JBZoo', 'Less'],                  //   90
             ['JBZoo', 'Path'],                  //   91
@@ -68,7 +68,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             $result = [''];
             if ($group === 'hide') {
                 $result[] = '<details>';
-                $result[] = '  <summary>CLICK to see my projects</summary>';
+                $result[] = '  <summary>CLICK to see my other projects</summary>';
                 $result[] = '';
             }
 
