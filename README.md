@@ -2,7 +2,6 @@ Hey there 👋 [![CI](https://github.com/SmetDenis/SmetDenis/actions/workflows/m
 
 ```clojure
 {:name   "Denis Smetannikov"
- :gender :male
  :role   (sort ["Lead BackEnd" "DevOps/DBA" "FrontEnd" "Team Lead" "SDM"])
  :like   ["Clojure" "Databases" "Spark" "Python" "PHP" "Go" "JS"
           "SICP" `:code-as-data  `:infrastructure-as-data
@@ -30,7 +29,7 @@ let youllNeverBeTheSame = iter(hexletCourses, yourTime, aLittleBitOfBrain);
 </details>
 
 ### My GitHub Actions
-* [CSV Blueprint](https://github.com/JBZoo/Csv-Blueprint) - Strict and flexible schema-based CSV file validation to report in your PRs.
+* [CSV Blueprint](https://github.com/JBZoo/Csv-Blueprint) - (Fresh!) Strict and flexible schema-based CSV file validation to report in your PRs.
 * [CI Report Converter](https://github.com/JBZoo/CI-Report-Converter) - The tool converts different error reports to GitHub Actions (Annotations)
 * [Composer Diff](https://github.com/JBZoo/Composer-Diff) - Coming soon...
 
@@ -72,5 +71,3 @@ let youllNeverBeTheSame = iter(hexletCourses, yourTime, aLittleBitOfBrain);
 
 
 </details>
-
-----
