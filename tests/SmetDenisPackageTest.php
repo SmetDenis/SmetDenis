@@ -17,7 +17,7 @@ namespace SmetDenis\PHPUnit;
 use JBZoo\Markdown\Table;
 
 use function JBZoo\PHPUnit\isTrue;
-use function JBZoo\PHPUnit\skip;
+use function JBZoo\PHPUnit\success;
 
 final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackageTest
 {
@@ -30,79 +30,47 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
 
     /** @var string[][][] */
     protected array $projects = [
-        'PHP Libraries'   => [
-            ['JBZoo', 'Utils'],
-            ['JBZoo', 'Data'],
-            ['JBZoo', 'Image'],
-            ['JBZoo', 'Event'],
-            ['JBZoo', 'Http-Client'],
-            ['JBZoo', 'Assets'],
-            ['JBZoo', 'Less'],
-            ['JBZoo', 'Path'],
-            ['JBZoo', 'Mermaid-PHP'],
-            ['JBZoo', 'Retry'],
-            ['JBZoo', 'SimpleTypes'],
-            ['JBZoo', 'Cli'],
-            ['JBZoo', 'Markdown'],
-            ['JBZoo', 'Csv-Blueprint'],
-       ],
-        'Developer Tools' => [
-            ['JBZoo', 'CI-Report-Converter'],
-            ['JBZoo', 'Composer-Diff'],
-            ['JBZoo', 'Composer-Graph'],
-            ['JBZoo', 'Mock-Server'],
-            ['JBZoo', 'Codestyle'],
-            ['JBZoo', 'PHPUnit'],
-            ['JBZoo', 'Toolbox-Dev'],
-            ['JBZoo', 'Toolbox'],
+        'show' => [
+            ['JBZoo', 'CSV-Blueprint'],         //    2* Docker
+            ['JBZoo', 'CI-Report-Converter'],   //  708  Docker
+
+            ['JBZoo', 'Composer-Diff'],         //  743
+            ['JBZoo', 'Composer-Graph'],        //  709
+            ['JBZoo', 'Mermaid-PHP'],           //  760
+            ['JBZoo', 'Cli'],                   //  410
+            ['JBZoo', 'Utils'],                 // 1200
+            ['JBZoo', 'Data'],                  // 1200
+            ['JBZoo', 'Event'],                 //  521
+            ['JBZoo', 'Retry'],                 //   47
+            ['JBZoo', 'Markdown'],              //  772
+            ['JBZoo', 'Image'],                 //  108
+            ['JBZoo', 'Http-Client'],           //  143
+        ],
+
+        'hide' => [
+            ['JBZoo', 'Assets'],                //   52
+            ['JBZoo', 'Less'],                  //   90
+            ['JBZoo', 'Path'],                  //   91
+
+            ['JBZoo', 'Mock-Server'],           //    2
+            ['JBZoo', 'Codestyle'],             //  966
+            ['JBZoo', 'PHPUnit'],               //  990
+            ['JBZoo', 'Toolbox-Dev'],           //  902
+            ['JBZoo', 'Toolbox'],               //    1
+            ['JBZoo', 'SimpleTypes'],           //    2
             ['JBZoo', 'Skeleton-PHP'],
         ],
     ];
 
-    public function testReadmeHeader(): void
-    {
-        skip('No need');
-    }
-
-    public function testDashBoardByLines(): void
-    {
-        skip('No need');
-        $result = [];
-
-        foreach ($this->projects as $group => $projects) {
-            $result[] = "### {$group}";
-            $result[] = '';
-
-            $rows = [];
-
-            foreach ($projects as $project) {
-                [$vendor, $name] = $project;
-
-                $this->vendorName = $vendor;
-                $this->packageName = $name;
-
-                $rows[] = \implode("\n", [
-                    $this->getGithubLink($vendor, $name) . '  ' . $this->buildStatusBadges(),
-                    '',
-                    '',
-                ]);
-            }
-
-            $result[] = \implode("\n", $rows);
-            $result[] = '----';
-        }
-
-        $expected = \implode("\n", $result);
-        isTrue(\str_contains(self::getReadme(), $expected), $expected);
-    }
-
     public function testDashBoardTable(): void
     {
-        $result = [];
-
         foreach ($this->projects as $group => $projects) {
-            $result[] = "#### {$group}";
-            $result[] = '';
+            $result = [''];
+            if ($group === 'hide') {
+                $result[] = '<details>';
+                $result[] = '  <summary>CLICK to see my projects</summary>';
+                $result[] = '';
+            }
 
             $rows = [];
 
@@ -111,7 +79,7 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             foreach ($projects as $project) {
                 [$vendor, $name] = $project;
 
-                $this->vendorName = $vendor;
+                $this->vendorName  = $vendor;
                 $this->packageName = $name;
 
                 $rows[] = [
@@ -120,16 +88,54 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
                 ];
             }
 
-            $result[] = $table
-                ->setHeaders(['Project', 'Info'])
-                ->appendRows($rows)
-                ->render();
-            $result[] = '';
-            $result[] = '';
+            $result[] = $table->setHeaders(['Project', 'Info'])->appendRows($rows)->render();
+
+            if ($group === 'hide') {
+                $result[] = '';
+                $result[] = '</details>';
+            }
+
+            $expected = \implode("\n", $result);
+            isTrue(\str_contains(self::getReadme(), $expected), $expected);
+        }
+    }
+
+    public function testReadmeHeader(): void
+    {
+        success('Skipped');
+    }
+
+    protected function checkBadgeGithubStars(): string
+    {
+        return $this->getBadge(
+            'GitHub Stars',
+            'https://img.shields.io/github/stars/__VENDOR__/__PACKAGE__?style=flat',
+            'https://github.com/__VENDOR_ORIG__/__PACKAGE_ORIG__/stargazers',
+        );
+    }
+
+    protected function checkBadgeGithubLatestRelease(): string
+    {
+        return $this->getBadge(
+            'GitHub Release',
+            'https://img.shields.io/github/v/release/__VENDOR__/__PACKAGE__?label=Latest',
+            'https://github.com/__VENDOR__/__PACKAGE__/releases',
+        );
+    }
+
+    protected function checkBadgeDockerPulls(): string
+    {
+        if ($this->packageName === 'CSV-Blueprint'
+            || $this->packageName === 'CI-Report-Converter'
+        ) {
+            return $this->getBadge(
+                'Docker Pulls',
+                'https://img.shields.io/docker/pulls/__VENDOR__/__PACKAGE__.svg',
+                'https://hub.docker.com/r/__VENDOR__/__PACKAGE__/tags',
+            );
         }
 
-        $expected = \implode("\n", $result);
-        isTrue(\str_contains(self::getReadme(), $expected), $expected);
+        return '';
     }
 
     private function getGithubLink(string $vendor, string $name): string
@@ -142,14 +148,10 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
         return \implode(
             '    ',
             \array_filter([
-                $this->checkBadgePackagistLatestStableVersion(),
                 $this->checkBadgeGithubActions(),
-                $this->checkBadgeCoveralls(),
-                $this->checkBadgePsalmCoverage(),
                 $this->checkBadgeGithubStars(),
                 $this->checkBadgePackagistDownloadsTotal(),
-                //$this->checkBadgeGithubForks(),
-                //$this->checkBadgeGithubIssues(),
+                $this->checkBadgeDockerPulls(),
             ]),
         );
     }
