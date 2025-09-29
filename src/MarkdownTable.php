@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace SmetDenis\Readme;
 
-class MarkdownTable
+final class MarkdownTable
 {
     // deprecated
 }

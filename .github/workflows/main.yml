@@ -9,6 +9,8 @@
 #
 
 name: CI
+permissions:
+  contents: read
 
 on:
   pull_request:
@@ -17,8 +19,6 @@ on:
   push:
     branches:
       - 'master'
-  schedule:
-    - cron: '47 */8 * * *'
 
 env:
   COLUMNS: 120
@@ -32,7 +32,7 @@ jobs:
       JBZOO_COMPOSER_UPDATE_FLAGS: ${{ matrix.composer_flags }}
     strategy:
       matrix:
-        php-version: [ 8.1, 8.2, 8.3 ]
+        php-version: [ 8.2, 8.3, 8.4 ]
         coverage: [ xdebug, none ]
         composer_flags: [ "--prefer-lowest", "" ]
     steps:
@@ -63,7 +63,7 @@ jobs:
         run: make report-coveralls --no-print-directory || true
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         continue-on-error: true
         with:
           name: PHPUnit - ${{ matrix.php-version }} - ${{ matrix.coverage }}
@@ -75,7 +75,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php-version: [ 8.1, 8.2, 8.3 ]
+        php-version: [ 8.2, 8.3, 8.4 ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -97,7 +97,7 @@ jobs:
         run: make codestyle --no-print-directory
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         continue-on-error: true
         with:
           name: Linters - ${{ matrix.php-version }}
@@ -109,7 +109,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php-version: [ 8.1, 8.2, 8.3 ]
+        php-version: [ 8.2, 8.3, 8.4 ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -131,7 +131,7 @@ jobs:
         run: make report-all --no-print-directory
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         continue-on-error: true
         with:
           name: Reports - ${{ matrix.php-version }}
