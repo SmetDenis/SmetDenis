@@ -44,20 +44,18 @@ final class SmetDenisPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackag
             ['JBZoo', 'Retry'],                 //   47
             ['JBZoo', 'Markdown'],              //  772
             ['JBZoo', 'Image'],                 //  108
-        ],
-
-        'hide' => [
+            ['JBZoo', 'SimpleTypes'],           //    2
             ['JBZoo', 'Http-Client'],           //  143
             ['JBZoo', 'Assets'],                //   52
             ['JBZoo', 'Less'],                  //   90
             ['JBZoo', 'Path'],                  //   91
+        ],
 
-            ['JBZoo', 'Mock-Server'],           //    2
+        'hide' => [
             ['JBZoo', 'Codestyle'],             //  966
             ['JBZoo', 'PHPUnit'],               //  990
             ['JBZoo', 'Toolbox-Dev'],           //  902
             ['JBZoo', 'Toolbox'],               //    1
-            ['JBZoo', 'SimpleTypes'],           //    2
             ['JBZoo', 'Skeleton-PHP'],
         ],
     ];
