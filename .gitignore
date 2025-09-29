@@ -15,3 +15,4 @@ vendor
 phpunit.xml
 composer.lock
 *.cache
+.claude
