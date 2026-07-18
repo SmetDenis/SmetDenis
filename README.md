@@ -1,4 +1,4 @@
-Hey there 👋 
+Hey there 👋 [![wakatime](https://wakatime.com/badge/user/02b2de7a-ff2a-4826-903e-03446328a0d4.svg)](https://wakatime.com/@02b2de7a-ff2a-4826-903e-03446328a0d4)
 ```clojure
 {:name   "Denis Smetannikov"
  :role   (sort ["Lead BackEnd" "DevOps/DBA" "FrontEnd" "Team Lead" "SDM"])
