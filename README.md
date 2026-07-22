@@ -1,5 +1,6 @@
 Hey there 👋
 
+[![Total stars](https://img.shields.io/github/stars/SmetDenis?affiliations=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&style=flat&label=Total%20stars&logo=github&color=blue)](https://github.com/SmetDenis)
 [![wakatime](https://wakatime.com/badge/user/02b2de7a-ff2a-4826-903e-03446328a0d4.svg)](https://wakatime.com/@02b2de7a-ff2a-4826-903e-03446328a0d4)
 
 ```clojure
