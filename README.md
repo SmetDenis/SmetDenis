@@ -32,7 +32,7 @@ Sometimes I build things for my own convenience and share them with the world.
 | [Ollama to OpenAI](https://github.com/SmetDenis/ollama-to-openai)                            | Ollama→OpenAI translation proxy: per-model config, Jinja2 prompt templating, hot-reload                                                                                                                                 |
 | [OWUI Token&money Usage Display](https://github.com/SmetDenis/openwebui-token-usage-display) | Open WebUI plugin: token, context, timing and cost per message - 5k+ installs, highlighted in the [official community docs](https://docs.openwebui.com/features/extensibility/community/)                               |
 | [Prompt Engineering framework](https://github.com/SmetDenis/Prompts)                         | Production prompt collection (★100+) + the Ultimate Prompt Architect                                                                                                                                                    |
-| [Obsidian: date-manager](https://github.com/SmetDenis/obsidian-frontmatter-date-manager)     | Obsidian plugin in the official community catalog                                                                                                                                                                       |
+| [Obsidian: Date manager](https://github.com/SmetDenis/obsidian-frontmatter-date-manager)     | Obsidian plugin in the official community catalog                                                                                                                                                                       |
 
 <details>
   <summary>Thank you SICP</summary>
