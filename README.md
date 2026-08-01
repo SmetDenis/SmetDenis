@@ -9,7 +9,7 @@ Total stars: [![Total stars](https://img.shields.io/github/stars/SmetDenis?affil
 
 ```clojure
 {:name   "Denis Smetannikov"
- :role   ["Senior Engineering Manager" "Staff Engineer"]        ; player-coach
+ :role   ["Senior Engineering Manager" "Staff Engineer"]        ; hands-on player-coach
  :own    {:platform [:databricks :multi-region :petabyte-scale]
           :ai       [:rag :langgraph :asr :llm-cost-engineering]}
  :like   ["Python" "Databases" "Spark" "Clojure" "Go" "PHP"
@@ -19,20 +19,20 @@ Total stars: [![Total stars](https://img.shields.io/github/stars/SmetDenis?affil
               (filter bad-practices?)
               (some enchantments)
               (do-it stateless)
-              (profit! as-money :your @pocket))}                         ; It just works!
+              (profit! as-money :your @pocket))}                ; It just works!
 ```
 
 Sometimes I build things for my own convenience and share them with the world.
 
-| Project                                                                                             | What it is                                                                                                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [JBZoo](https://github.com/JBZoo)                                                                   | 25 PHP packages maintained since 2013 - 14M+ installs on Packagist (~128k/month today), 1.5k+ GitHub stars across the ecosystem. Busiest one: [Mermaid-PHP](https://github.com/JBZoo/Mermaid-PHP) (~28k installs/month) |
-| [CSV-Blueprint](https://github.com/JBZoo/CSV-Blueprint)                                             | Declarative CSV validator - data contracts as YAML schemas, born from real data-platform work                                                                                                                           |
-| [gigaam-openai-api-server](https://github.com/SmetDenis/gigaam-openai-api-server)                   | OpenAI-compatible Russian ASR server: Silero VAD chunking for long audio, Docker-first                                                                                                                                  |
-| [ollama-to-openai](https://github.com/SmetDenis/ollama-to-openai)                                   | Ollama→OpenAI translation proxy: per-model config, Jinja2 prompt templating, hot-reload                                                                                                                                 |
-| [openwebui-token-usage-display](https://github.com/SmetDenis/openwebui-token-usage-display)         | Open WebUI plugin: token, context, timing and cost per message - 5k+ installs, highlighted in the [official community docs](https://docs.openwebui.com/features/extensibility/community/)                               |
-| [Prompt-engineering framework](https://github.com/SmetDenis/Prompts)                                | Production prompt collection (★100+) + the Ultimate Prompt Architect                                                                                                                                                    |
-| [obsidian-frontmatter-date-manager](https://github.com/SmetDenis/obsidian-frontmatter-date-manager) | Obsidian plugin in the official community catalog                                                                                                                                                                       |
+| Project                                                                                      | What it is                                                                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [JBZoo](https://github.com/JBZoo)                                                            | 25 PHP packages maintained since 2013 - 14M+ installs on Packagist (~128k/month today), 1.5k+ GitHub stars across the ecosystem. Busiest one: [Mermaid-PHP](https://github.com/JBZoo/Mermaid-PHP) (~28k installs/month) |
+| [CSV Blueprint](https://github.com/JBZoo/CSV-Blueprint)                                      | Declarative CSV validator - data contracts as YAML schemas, born from real data-platform work                                                                                                                           |
+| [GigaAM (OpenAI API Server](https://github.com/SmetDenis/gigaam-openai-api-server)           | OpenAI-compatible Russian ASR server: Silero VAD chunking for long audio, Docker-first                                                                                                                                  |
+| [Ollama to OpenAI](https://github.com/SmetDenis/ollama-to-openai)                            | Ollama→OpenAI translation proxy: per-model config, Jinja2 prompt templating, hot-reload                                                                                                                                 |
+| [OWUI Token&money Usage Display](https://github.com/SmetDenis/openwebui-token-usage-display) | Open WebUI plugin: token, context, timing and cost per message - 5k+ installs, highlighted in the [official community docs](https://docs.openwebui.com/features/extensibility/community/)                               |
+| [Prompt Engineering framework](https://github.com/SmetDenis/Prompts)                         | Production prompt collection (★100+) + the Ultimate Prompt Architect                                                                                                                                                    |
+| [Obsidian: date-manager](https://github.com/SmetDenis/obsidian-frontmatter-date-manager)     | Obsidian plugin in the official community catalog                                                                                                                                                                       |
 
 <details>
   <summary>Thank you SICP</summary>
