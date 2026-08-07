@@ -4,8 +4,7 @@ I'm **Denis Smetannikov** - Senior Engineering Manager & Staff Engineer at [bill
 
 I've been hands-on with LLMs since 2022, as an early beta tester of the first GitHub Copilot versions, and since 2024 applied AI/LLM engineering is my technical center of gravity - RAG with measured evaluation, LangGraph agents, speech recognition, LLM cost engineering, and spec-driven AI-assisted development (Claude Code first, with GPT, DeepSeek, and local models behind a self-hosted LiteLLM gateway). I like decisions backed by numbers - golden sets before "vibes", WER benchmarks before model choices, and cost per request before scale. Read first, prompt second.
 
-[![Total stars](https://img.shields.io/github/stars/SmetDenis?affiliations=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&style=flat&label=Total%20stars&logo=github&color=blue)](https://github.com/SmetDenis)
-Coding Time: [![wakatime](https://wakatime.com/badge/user/02b2de7a-ff2a-4826-903e-03446328a0d4.svg)](https://wakatime.com/@SmetDenis) 
+[![Total stars](https://img.shields.io/github/stars/SmetDenis?affiliations=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&style=flat&label=Total%20stars&logo=github&color=blue)](https://github.com/SmetDenis) [![wakatime](https://wakatime.com/badge/user/02b2de7a-ff2a-4826-903e-03446328a0d4.svg)](https://wakatime.com/@SmetDenis) 
 
 ```clojure
 {:name   "Denis Smetannikov"
